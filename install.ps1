@@ -46,9 +46,9 @@ if ($PSVersionTable.PSVersion.Major -gt $PSMinVersion) {
 
   # Clone to .spicetify.
   Write-Part "DOWNLOADING    "; Write-Emphasized $sp_dot_dir
-  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Comfy-Themes/Spicetify/main/Comfy/color.ini" -UseBasicParsing -OutFile "$sp_dot_dir\Comfy\color.ini"
-  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Comfy-Themes/Spicetify/main/Comfy/user.css" -UseBasicParsing -OutFile "$sp_dot_dir\Comfy\user.css"
-  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Comfy-Themes/Spicetify/main/Comfy/theme.js" -UseBasicParsing -OutFile "$sp_dot_dir\Comfy\theme.js"
+  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/masahiro-666/Spicetify/main/Comfy/color.ini" -UseBasicParsing -OutFile "$sp_dot_dir\Comfy\color.ini"
+  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/masahiro-666/Spicetify/main/Comfy/user.css" -UseBasicParsing -OutFile "$sp_dot_dir\Comfy\user.css"
+  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/masahiro-666/Spicetify/main/Comfy/theme.js" -UseBasicParsing -OutFile "$sp_dot_dir\Comfy\theme.js"
   Write-Done
 
   # Installing.
