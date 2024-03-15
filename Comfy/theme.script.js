@@ -1254,7 +1254,7 @@ torefactor:
 				const container = document.createElement("div");
 				const extraText = document.createElement("a");
 				extraText.textContent = "Need support? Click here!";
-				extraText.href = "https://discord.gg/rtBQX5D3bD";
+				extraText.href = "https://youtu.be/xvFZjo5PgG0?si=kWev92b0FBmPZ3nF";
 				extraText.style.color = "var(--spice-notification)";
 
 				container.appendChild(document.querySelector("h1.main-type-alto"));
