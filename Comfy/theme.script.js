@@ -36,7 +36,7 @@ torefactor:
 
 	// Initialize Config
 	let config = JSON.parse(localStorage.getItem("comfy:config") || "{}");
-	let configScheme = Spicetify.Config?.color_scheme || "Masafy";
+	let configScheme = Spicetify.Config?.color_scheme || "Comfy";
 	let preloadedScheme = false;
 	let startup = true;
 	let preloadContainer = document.createElement("div");
