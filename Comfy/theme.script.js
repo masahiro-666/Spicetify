@@ -506,7 +506,7 @@ torefactor:
 	const Content = () => {
 		return Spicetify.React.createElement(
 			"div",
-			{ className: "Masafy-settings" },
+			{ className: "comfy-settings" },
 			Spicetify.React.createElement(Section, { name: "Colorscheme" }, [
 				{
 					type: Dropdown,
