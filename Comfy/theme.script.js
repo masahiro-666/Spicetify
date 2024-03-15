@@ -50,7 +50,7 @@ torefactor:
 	}
 
 	// Update Colorschemes
-	fetch("https://raw.githubusercontent.com/Comfy-Themes/Spicetify/main/Comfy/color.ini")
+	fetch("https://raw.githubusercontent.com/masahiro-666/Spicetify/main/Comfy/color.ini")
 		.then(response => response.text())
 		.then(iniContent => {
 			setConfig("Color-Schemes", parseIni(iniContent), "Successfully updated color schemes");
