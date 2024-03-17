@@ -997,7 +997,7 @@ torefactor:
 							callback: value => document.documentElement.style.setProperty("--cover-art-bottom", value ? value + "px" : "")
 						}
 					]
-				}
+				},
 				{
 					type: Slider,
 					name: "Circular-Rotating-Cover-Art",
