@@ -952,7 +952,7 @@ torefactor:
 						Spicetify.React.Fragment,
 						null,
 						Spicetify.React.createElement("h4", null, "Change the size of the cover art:"),
-						Spicetify.React.createElement("li", null, "Comfy default: (84px, 84px, 8px, 20px)"),
+						Spicetify.React.createElement("li", null, "Masafy default: (60px, 60px, 8px, 20px)"),
 						Spicetify.React.createElement("li", null, "Spotify default: (56px, 56px, 4px, 0px)"),
 						Spicetify.React.createElement("li", null, "Oblong: (115px, 84px, 15px, 20px)")
 					),
@@ -962,7 +962,13 @@ torefactor:
 							inputType: "number",
 							name: "Cover-Art-Width",
 							title: "Width",
-							defaultVal: "84px",
+							defaultVal: "60px",
+							tippy: Spicetify.React.createElement(
+								Spicetify.React.Fragment,
+								null,
+								Spicetify.React.createElement("h4", null, "Change the distance between the cover art and the bottom of the playbar:"),
+								Spicetify.React.createElement("li", null, "Masafy default: 60px"),
+								Spicetify.React.createElement("li", null, "Spotify default: 56px"),
 							callback: value => document.documentElement.style.setProperty("--cover-art-width", value ? value + "px" : "")
 						},
 						{
@@ -970,7 +976,13 @@ torefactor:
 							inputType: "number",
 							name: "Cover-Art-Height",
 							title: "Height",
-							defaultVal: "84px",
+							defaultVal: "60px",
+							tippy: Spicetify.React.createElement(
+								Spicetify.React.Fragment,
+								null,
+								Spicetify.React.createElement("h4", null, "Change the distance between the cover art and the bottom of the playbar:"),
+								Spicetify.React.createElement("li", null, "Masafy default: 60px"),
+								Spicetify.React.createElement("li", null, "Spotify default: 56px"),
 							callback: value => document.documentElement.style.setProperty("--cover-art-height", value ? value + "px" : "")
 						},
 						{
@@ -979,6 +991,12 @@ torefactor:
 							name: "Cover-Art-Radius",
 							title: "Border Radius",
 							defaultVal: "8px",
+							tippy: Spicetify.React.createElement(
+								Spicetify.React.Fragment,
+								null,
+								Spicetify.React.createElement("h4", null, "Change the distance between the cover art and the bottom of the playbar:"),
+								Spicetify.React.createElement("li", null, "Masafy default: 8px"),
+								Spicetify.React.createElement("li", null, "Spotify default: 4px"),
 							callback: value => document.documentElement.style.setProperty("--cover-art-radius", value ? value + "px" : "")
 						},
 						{
@@ -991,7 +1009,7 @@ torefactor:
 								Spicetify.React.Fragment,
 								null,
 								Spicetify.React.createElement("h4", null, "Change the distance between the cover art and the bottom of the playbar:"),
-								Spicetify.React.createElement("li", null, "Comfy default: 20px"),
+								Spicetify.React.createElement("li", null, "Masafy default: 20px"),
 								Spicetify.React.createElement("li", null, "Spotify default: 0px")
 							),
 							callback: value => document.documentElement.style.setProperty("--cover-art-bottom", value ? value + "px" : "")
