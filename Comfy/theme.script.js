@@ -998,6 +998,12 @@ torefactor:
 						}
 					]
 				}
+				{
+					type: Slider,
+					name: "Circular-Rotating-Cover-Art",
+					title: "Circular Rotating Cover Art",
+					defaultVal: false
+				}
 			]),
 			Spicetify.React.createElement(Section, { name: "Banner Image" }, [
 				{
