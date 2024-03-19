@@ -938,26 +938,6 @@ torefactor:
 					name: "Playbar-Gif",
 					title: "Playbar Gif",
 					defaultVal: false,
-					callback: updatePlaybarGif,
-					item: [
-						{
-							type: Input,
-							inputType: "text",
-							name: "Custom-Gif-URL",
-							title: "URL",
-							defaultVal: "Paste URL here!",
-							tippy: Spicetify.React.createElement(
-								Spicetify.React.Fragment,
-								null,
-								Spicetify.React.createElement("h4", null, "Network Images:"),
-								Spicetify.React.createElement("li", null, "Enter any raw image url into text box, e.g. 'https://example.com/image.png'"),
-								Spicetify.React.createElement("h4", null, "Local Images:"),
-								Spicetify.React.createElement("li", null, "Place desired image in 'spotify/Apps/xpui/images'"),
-								Spicetify.React.createElement("li", null, "Enter 'images/image.png' into text box")
-							),
-							callback: updatePlaybarGif
-						}
-					]
 				}
 			]),
 			Spicetify.React.createElement(Section, { name: "Cover Art" }, [
